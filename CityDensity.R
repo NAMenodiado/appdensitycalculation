@@ -4,7 +4,6 @@ area = read.csv("regionarea.csv")
 
 city_den = aggregate(pop$CityProvince,by=list(pop$Region), FUN = unique)
 city_den
-length(city_den$x[[18]])
 
 len = 1:18
 for (i in 1:18) {
